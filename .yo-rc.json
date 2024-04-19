@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "blog": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      },
+      "store": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      }
+    },
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "buildTool": "maven",
+    "clientFramework": "angular",
+    "devServerPort": 4200,
+    "entities": ["Blog", "Post", "Tag", "Product"],
+    "jhipsterVersion": "8.3.0",
+    "jwtSecretKey": "YzllMTdkM2ExYTA3MGViMWEzM2M2YmNkM2M2YzU4ODZiNjc3NmQwMzg1Njc5OGRmMjdkYzZiNGFjNTI3YTE0YmFiOWQ0ZGE2MGE3ZDA3MGJlYTFmM2QzNmNmODExOTE2M2Q1YTFlOTIzZGE3YzFmODEyNjk3OGFiODQyN2I0OWQ=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1713548130000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/msun/gateway",
+    "packageName": "com.msun.gateway",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "syncUserWithIdp": true,
+    "testFrameworks": ["cypress"]
+  }
+}
