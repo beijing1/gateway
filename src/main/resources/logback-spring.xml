@@ -28,7 +28,7 @@
     -->
 
     <logger name="com.msun.gateway" level="INFO"/>
-
+    <logger name="javax.management" level="warn"/>
     <logger name="angus.activation" level="WARN"/>
     <logger name="jakarta.activation" level="WARN"/>
     <logger name="jakarta.mail" level="WARN"/>
